@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="14dp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/usernameprf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loged in as : lebahganteng"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="LOGOUT"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navbar" />
+</RelativeLayout>
+
